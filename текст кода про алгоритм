@@ -1,0 +1,6 @@
+from random import randint
+x = randint(-30, 25)
+
+if (x >= -30) and (x <= -2) or (x >= 7) and (x > 7) and (x < 25):
+    print("the value is suitable")
+else: print('the value does not fit')
